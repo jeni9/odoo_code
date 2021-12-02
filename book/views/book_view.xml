@@ -1,31 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-    <record id="estate_property_form_book" model="ir.ui.view">
-        <field name="name">Book Name</field>
-        <field name="model">book</field>
-        <field name="arch" type="xml">
-            <kanban class="o_res_partner">
-                <field name="book_image" />
-                <templates>
-                    <t t-name="kanban-box">
-                        <div t-aff-class="oe_kanban_global_click">
-                             <div class="o_kanban_image">
-                                <!-- <img t-att-src="kanban_image('book','image',record.book_image.raw_value)"/>-->
-                                 <field name="book_image" widget="image" style="width:150px;height:185px;"/>
-                             </div>
-                            <div class="oe_kanban_details">
-                                <t class="o_kanban_record_title">
-                                                <field name="name"/>
 
-                                </t>
-                            </div>
-                        </div>
-                    </t>
-                </templates>
-
-            </kanban>
-        </field>
-    </record>
     <record id="estate_property_form_book" model="ir.ui.view">
         <field name="name">Book Name</field>
         <field name="model">book</field>
@@ -136,22 +111,7 @@
         </field>
     </record>
 
-        <record id="book_search" model="ir.ui.view">
-        <field name="name">Book Search</field>
-        <field name="model">book</field>
-        <field name="arch" type="xml">
-            <search>
-                <field name="name"/>
-                <field name="code"/>
 
-
-                <group expand="1" string="Group By">
-                    <filter string="name" name="name" context="{'group_by': 'name'}"/>
-
-                </group>
-            </search>
-        </field>
-    </record>
 
     <record id="book_issue_form" model="ir.ui.view">
         <field name="name">Book Issue</field>
@@ -187,6 +147,25 @@
                     </notebook>
                 </sheet>
             </form>
+        </field>
+    </record>
+
+     <record id="books_search" model="ir.ui.view">
+        <field name="name">Book Search</field>
+        <field name="model">book</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="name"/>
+                <field name="price"/>
+                <group name="edition"/>
+                <filter name="500 or more price" domain="[('price', '>', 500)]"/>
+                <filter name="Edition" domain="[('edition', '=', True)]"/>
+                <group expand="1" string="Group By">
+                     <filter string="Price" name="price" context="{'group_by': 'price'}"/>
+
+                     <filter string="code" name="barcode" context="{'group_by': 'code'}"/>
+                </group>
+            </search>
         </field>
     </record>
 

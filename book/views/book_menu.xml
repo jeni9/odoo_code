@@ -5,7 +5,7 @@
     <record id="book_action" model="ir.actions.act_window">
         <field name="name">Book</field>
         <field name="res_model">book</field>
-        <field name="view_mode">kanban,tree,form</field>
+        <field name="view_mode">tree,form</field>
     </record>
 
     <record id="author_action" model="ir.actions.act_window">
@@ -38,25 +38,25 @@
 
 
 
-    <menuitem sequence="0" id="book_root" name="Book Library"/>
+    <menuitem sequence="0" id="book_root" name=" Library"/>
 
     <menuitem id="book_sub_menu" parent="book_root" name="Book"/>
-    <menuitem id="book_sub_menu_action" action="book_action" name="Add book" parent="book_sub_menu"/>
+    <menuitem id="book_sub_menu_action" action="book_action" name="book" parent="book_sub_menu"/>
 
 
-    <menuitem id="book_author" name="Add Author" parent="book_root"/>
+    <menuitem id="book_author" name="Author" parent="book_root"/>
     <menuitem id="book_author_sub" parent="book_author" action="author_action"/>
 
-    <menuitem id="book_category" name="Add Category" parent="book_root"/>
+    <menuitem id="book_category" name="Category" parent="book_root"/>
     <menuitem id="book_category_sub" parent="book_category" action="book_category_action"/>
 
-    <menuitem id="book_category" name="Add Category" parent="book_root"/>
+    <menuitem id="book_category" name=" Category" parent="book_root"/>
     <menuitem id="book_category_sub" parent="book_category" action="book_category_action"/>
 
-    <menuitem id="book_department" name="Add Department" parent="book_root"/>
+    <menuitem id="book_department" name="Department" parent="book_root"/>
     <menuitem id="book_department_sub" parent="book_department" action="book_department_action"/>
 
-    <menuitem id="issue_book" name="Issue Book" parent="book_root"/>
+    <menuitem id="issue_book" name="Issue" parent="book_root"/>
     <menuitem id="issue_book_sub" parent="issue_book" action="issue_book_action"/>
 
 

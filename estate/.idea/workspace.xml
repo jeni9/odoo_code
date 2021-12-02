@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="695b9c51-0993-466e-b1b6-585e0ba8ce01" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book/__manifest__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../book/__manifest__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book/views/book_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../book/views/book_menu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book/views/book_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../book/views/book_view.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../book/yxt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__manifest__.py" beforeDir="false" afterPath="$PROJECT_DIR$/__manifest__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/estate_property.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/estate_property.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/in_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/in_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/res_patner.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/res_patner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/security/ir.model.access.csv" beforeDir="false" afterPath="$PROJECT_DIR$/security/ir.model.access.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/estate_menus.xml" beforeDir="false" afterPath="$PROJECT_DIR$/views/estate_menus.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/estate_property_views.xml" beforeDir="false" afterPath="$PROJECT_DIR$/views/estate_property_views.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="21jYmkpiPiOVyYyFsQDvlyC2rSp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../book" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="695b9c51-0993-466e-b1b6-585e0ba8ce01" name="Changes" comment="" />
+      <created>1638456127768</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1638456127768</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
